@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AnnouncementXML" targetNamespace="http://tempuri.org/AnnouncementXML.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified"
+	xmlns="http://tempuri.org/AnnouncementXML.xsd"
+	xmlns:mstns="http://tempuri.org/AnnouncementXML.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="AnnouncementDS" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Announcement">
+          <xs:complexType>
+            <xs:sequence>
+				<xs:element name="Topic" type="xs:string" minOccurs="0" />
+				<xs:element name="DateMessage" type="xs:date"  minOccurs="0" />
+				<xs:element name="DateMessageString" type="xs:string"  minOccurs="0" />
+				<xs:element name="Subject" type="xs:string" minOccurs="0" />
+				<xs:element name="Message" type="xs:string" minOccurs="0" />
+				<xs:element name="FileName" type="xs:string" minOccurs="0" />
+				<xs:element name="FilePath" type="xs:string" minOccurs="0" />
+				<xs:element name="WebLink" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

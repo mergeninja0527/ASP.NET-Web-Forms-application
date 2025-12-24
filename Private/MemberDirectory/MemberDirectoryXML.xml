@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="MemberDirectoryXML" targetNamespace="http://tempuri.org/MemberDirectoryXML.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" 
+	xmlns="http://tempuri.org/MemberDirectoryXML.xsd"
+	xmlns:mstns="http://tempuri.org/MemberDirectoryXML.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="MemberDirectoryDS" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="MemberDirectory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StreetName" type="xs:string" />
+              <xs:element name="StreetNo" type="xs:string" minOccurs="0" />
+              <xs:element name="sortStreetNoInt" type="xs:boolean" />
+              <xs:element name="StreetNoInt" type="xs:integer" />
+              <xs:element name="UnitNo" type="xs:string" minOccurs="0" />
+              <xs:element name="sortUnitNoInt" type="xs:boolean" />
+              <xs:element name="UnitNoInt" type="xs:integer" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="Role" type="xs:string" minOccurs="0" />
+              <xs:element name="PropertyAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="MailAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="HomePhone" type="xs:string" minOccurs="0" />
+              <xs:element name="CellPhone" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkPhone" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

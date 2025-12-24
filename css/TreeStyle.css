@@ -1,0 +1,60 @@
+﻿.TreeView 
+{ 
+  background-color:White;
+  padding-top:4px; 
+  padding-left:1px; 
+  border: #7C7C94 1px solid; 
+  cursor:default;
+  color:Black;
+}
+
+.Def_ItemCss
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	padding-left: 5px; 
+	color:Black;
+}
+
+.Def_TextCellCss
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	padding-left: 5px; 
+	color:Black;
+}
+
+.Hov_TextCont
+{
+	text-decoration:underline; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	padding-left: 5px; 
+	cursor: default; 
+}
+
+.Act_TextCont
+{
+	background-color: gray; 
+	font-family: tahoma; 
+	font-size: 11px;
+	padding-left: 5px; 
+	color:black;
+	height:15;
+	text-align:center;
+	
+}
+
+.NodeEdit 
+{
+  border:1px gray solid;
+  font-family: tahoma; 
+  font-size: 11px;  
+}
+.lblCss
+{
+	color:Black;
+	font-family: tahoma; 
+    font-size: 11px; 
+}
+

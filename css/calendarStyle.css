@@ -1,0 +1,79 @@
+.calendar
+{
+  border:none;
+}
+
+.day
+{
+  width:90px;
+  height:70px;
+  text-align:left;
+  vertical-align:top;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:10px;
+  color:Black;
+  background-color:#FFFFFF;
+  border:solid 1px #C6C1AC;
+}
+.dayhover
+{
+  width:90px;
+  height:70px;
+  text-align:left;
+  vertical-align:top;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:10px;
+  color:Blue;
+  background-color:#FFFFFF;
+  border:solid 2px #C6C1AC;
+  cursor:pointer;
+}
+
+.othermonthday
+{
+  background-color:#F8F8FF;
+}
+
+.month
+{
+  border-collapse:collapse;
+  border:solid 1px black;
+}
+
+.dayheader
+{
+  background-color:#B3BCCF;
+  background-image:url(images/header_bg_Calendar.gif);
+  color:#504C39;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:11px;
+  text-align:center;
+  border-top:solid 1px #FFFFFF;
+  border-left:solid 1px #FFFFFF;
+  border-bottom:solid 1px #ACA899;
+  border-right:solid 1px #ACA899;
+  padding: 4px;
+}
+
+.title
+{
+  background-color:#2F4463;
+  background-image:url(images/title_bg.gif);
+  border: 1px solid black;
+  border-bottom-width: 0px;
+}
+
+.title TD
+{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-weight:bold;
+  color:White;
+  padding-top:1px;
+  padding-bottom:1px;
+}
+
+.nextprev
+{
+  cursor:pointer;
+}

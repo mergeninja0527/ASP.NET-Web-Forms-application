@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsReport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="dsReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JobID" type="xs:string" minOccurs="0" />
+              <xs:element name="DateOpen" type="xs:date" minOccurs="0" />
+              <xs:element name="DateClose" type="xs:date" minOccurs="0" />
+              <xs:element name="DateOpenClose" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="StreetName" type="xs:string" minOccurs="0" />
+              <xs:element name="StreetNo" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitNo" type="xs:string" minOccurs="0" />
+              <xs:element name="PropAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactProperty" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="CorrectiveAction" type="xs:string" minOccurs="0" />
+              <xs:element name="DescriptionCR" type="xs:string" minOccurs="0" />
+              <xs:element name="CatAndSubcat" type="xs:string" minOccurs="0" />
+              <xs:element name="WOVendor" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceID" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceTotalCost" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,92 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterSignIn.master.vb" Inherits="SeymourWebsite.MasterSignIn" %>
+<%@ Register assembly="DevExpress.Web.v19.1, Version=19.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<title>Rancho Bernardo Swim and Tennis | Members Only</title>
+    <link href="~/css/menu_dx.css" type="text/css" rel="stylesheet" />
+    <link href="~/css/styles.css" type="text/css" rel="stylesheet" />
+        <link href="~/Content/Site.css" rel="stylesheet" /> 
+
+    <style type="text/css">
+          #wrapper {position:relative; margin-left:auto; margin-right:auto; width: 960px; background-color:#363636} 
+        #signin {position:relative; float: left; height: 30px; width: 960px; top:0px;background-color:transparent;}
+        #header {position:relative;  float: left; height:130px;top:0px; width:960px; top:0px;border:0px solid #A9A9A9}
+         #ticker {position:relative; float: left;height: 23px; width: 960px;top:0px; z-index:9999;border-bottom:0px solid #2F2F2F; background-color:transparent}
+        #menu {position:relative; float: left;height: 35px; width: 960px; top:0px; background-color:transparent; } 
+        #main {position:relative;  float: left;width: 960px; top: 0px; background-color:white }
+        #footertop {position:relative;  float: left;height:100px; width: 960px;top:0px; background-color:#5E88C0; }      
+        #footerMap {position:relative;  float: left; height:25px; width: 960px; top:0px; background-color:#5292bf; border-top:0px solid #5E88C0} 
+</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head >
+  
+<%--    <body>--%>
+ <body style="background-image: url('<%= BodyImagePath%>'); background-size: cover; background-color: #ffffff; background-position-x:center;">
+    <form id="form1" runat="server" >
+          
+        <div id="wrapper">
+                <div id="header">
+            <img alt="" height="130" src="~/Images/Header3.png" runat="server" 
+                    id="imgheader" width="960" 
+                    style="position: absolute; z-index: 3; top: 0px; left: 0px;" />
+         </div>  <!--header-->
+              <%--  <div id="signin">
+         <dx:ASPxButton ID="lnkSignInOut" runat="server" Text="Sign-In" RenderMode="Link"
+            style="position:absolute; text-align:right; top:3px;  left:6px; color:white; font-family:Verdana,  tahoma, Arial; font-size:10pt; font-weight:bold; text-decoration: none; z-index: 100;" 
+                Width="128px">
+     </dx:ASPxButton>
+
+        <dx:ASPxTextBox ID="txtLoginName" runat="server" style="z-index: 101; left: 2px; position: absolute; top: 2px; color:white;  font-family:Verdana, tahoma, Arial; font-size:12px; font-style:normal; font-weight:bold" 
+                    Width="413px" BackColor="Transparent" Border-BorderColor="Transparent"></dx:ASPxTextBox>
+
+           </div>  <!--signin-->--%>
+           
+                      <div id="ticker" style="display: inline; background-color:white"></div>
+           
+            <div id="main">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>  <!--main-->
+          
+  
+        
+        <div id="footerMap">
+  <span style="position:absolute; margin-top:5px;  background-color:#5292bf; font-family:Arial; color: white; font-size:9pt; font-style:normal; border-top:0px; width:960px; text-align:center">Copyright © 2025 Rancho Bernardo Swim and Tennis - All Rights Reserved.</span>      
+
+  </div>
+    </div> <!--wrapper-->
+       <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+   <script type="text/javascript">
+
+       var content = "<%= tickertext %>";
+
+       var tWidth = '960px';                  // width (in pixels)
+       var tHeight = '15px';                  // height (in pixels)
+       var tcolour = 'transparent';               // background colour:
+       var moStop = true;                     // pause on mouseover (true or false)
+       var fontfamily = 'arial'; // font for content
+       var tSpeed = 2;                        // scroll speed (1 = slow, 5 = fast)
+       var cps = tSpeed;
+       var aw, mq;
+       var fsz = parseInt(tHeight) - 4;
+       function startticker() {
+           if (document.getElementById) { var tick = '<div style="color:#111111;position:relative;width:' + tWidth + ';height:' + tHeight + ';overflow:hidden;background-color:' + tcolour + '"'; if (moStop) tick += ' onmouseover="cps=0" onmouseout="cps=tSpeed"'; tick += '><div id="mq" style="position:absolute;left:0px;top:3px;font-family:' + fontfamily + ';font-size:' + fsz + 'px;white-space:nowrap;"><\/div><\/div>'; document.getElementById('ticker').innerHTML = tick; mq = document.getElementById("mq"); mq.style.left = (parseInt(tWidth) + 10) + "px"; mq.innerHTML = '<span id="tx">' + content + '<\/span>'; aw = document.getElementById("tx").offsetWidth; lefttime = setInterval("scrollticker()", 50); }
+       }
+       function scrollticker() { mq.style.left = (parseInt(mq.style.left) > (-10 - aw)) ? parseInt(mq.style.left) - cps + "px" : parseInt(tWidth) + 10 + "px"; }
+
+       if (content.length > 0) {
+           window.onload = startticker;
+       } else {
+           document.getElementById('ticker').style.display = 'none';
+       }
+
+        </script>
+</asp:PlaceHolder>
+    </form>
+</body>
+</html>

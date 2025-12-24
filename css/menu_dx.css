@@ -1,0 +1,72 @@
+﻿.mainmenu
+{
+  font-weight: normal;
+  text-decoration: none;
+  color:white;
+  height:30px;
+  font-size:10pt;
+  vertical-align:middle;
+  text-align:center;
+}
+.mainmenuhover
+{
+  font-weight: normal;
+  text-decoration: none;
+  color:#3B3D25;
+  background-color:#D8C7B7;
+  height:30px;
+  font-size:10pt;
+  vertical-align:middle;
+  text-align:center;
+  border-bottom: 0px solid #6BA04E;
+}
+.mainmenuselected
+{
+  font-weight: normal;
+  text-decoration: none;
+  color:#3B3D25;
+  background-color:#D8C7B7;
+  height:30px;
+  font-size:10pt;
+  vertical-align:middle;
+  text-align:center;
+  border-bottom: 0px solid #6BA04E;
+}
+.submenu {
+    font-weight: normal;
+    text-decoration: none;
+    color: #3B3D25;
+    background-color: #D8C7B7;
+    padding-left: 2px;
+    height: 25px;
+    font-size: 9pt;
+    text-align: left;
+    vertical-align: middle;
+    border: none;
+}
+.submenuhover
+{
+  font-weight: normal;
+    text-decoration: none;
+  color:white;
+  background-color:#5D0002; 
+  height:25px;
+    padding-left:2px;
+  font-size:9pt; 
+  text-align:left;
+  vertical-align:middle;
+  border: 0px solid #2b3d25; 
+}
+.submenuselected
+{
+  font-weight: normal;
+    text-decoration: none;
+  color:white;
+  background-color:#5D0002; 
+  height:25px;
+    padding-left:2px;
+  font-size:9pt; 
+  text-align:left;
+  vertical-align:middle;
+  border: 0px solid white
+}

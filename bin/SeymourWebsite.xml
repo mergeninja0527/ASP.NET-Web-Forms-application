@@ -1,0 +1,2721 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SeymourWebsite
+</name>
+</assembly>
+<members>
+<member name="T:SeymourWebsite.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SeymourWebsite.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:SeymourWebsite.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:SeymourWebsite.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:SeymourWebsite.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:SeymourWebsite.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:SeymourWebsite.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SeymourWebsite.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SeymourWebsite.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:SeymourWebsite._Default._ASPxPanel1">
+<summary>
+ASPxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite._Default._lbldate">
+<summary>
+lbldate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite._Default._lblHomeownerSignIn">
+<summary>
+lblHomeownerSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite._Default._lblSignedIn">
+<summary>
+lblSignedIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite._Default._ASPxComboBoxAdmin">
+<summary>
+ASPxComboBoxAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite._Default._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite._Default._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._ASPxPanel1">
+<summary>
+ASPxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._lbldate">
+<summary>
+lbldate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._lblHomeownerSignIn">
+<summary>
+lblHomeownerSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._chkRememberMe">
+<summary>
+chkRememberMe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._lblUsername">
+<summary>
+lblUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._lblPassword">
+<summary>
+lblPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._btnSignIn">
+<summary>
+btnSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DefaultSignIn._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._TimeoutControl1">
+<summary>
+TimeoutControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._lnkSignInOut">
+<summary>
+lnkSignInOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._txtLoginName">
+<summary>
+txtLoginName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._imgheader">
+<summary>
+imgheader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._ASPxMenu1">
+<summary>
+ASPxMenu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._menuXmlDataSource">
+<summary>
+menuXmlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Master._PlaceHolder1">
+<summary>
+PlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MasterSignIn._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MasterSignIn._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MasterSignIn._imgheader">
+<summary>
+imgheader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MasterSignIn._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MasterSignIn._PlaceHolder1">
+<summary>
+PlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.PageError._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.PageError._btnSignIn">
+<summary>
+btnSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Announcement._ddlTopic">
+<summary>
+ddlTopic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Announcement._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Announcement._CallbackPanel1">
+<summary>
+CallbackPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Announcement._ASPxDocumentViewer1">
+<summary>
+ASPxDocumentViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Announcement._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Announcement._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.HomePage._ASPxHtmlEditor1">
+<summary>
+ASPxHtmlEditor1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.HomePage._lnkEdit">
+<summary>
+lnkEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.HomePage._lnkReturn">
+<summary>
+lnkReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.HomePage._lnkSave">
+<summary>
+lnkSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ImageDisplay._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.LoginAssn._txtHeader">
+<summary>
+txtHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.LoginAssn._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.LoginAssn._txtText">
+<summary>
+txtText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocLoad._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._cmdActivityLog">
+<summary>
+cmdActivityLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._imgActivityLog">
+<summary>
+imgActivityLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._btnView">
+<summary>
+btnView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._ASPxTreeList1">
+<summary>
+ASPxTreeList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardDocs._ASPxCallbackMessage">
+<summary>
+ASPxCallbackMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._txtMeetingFreq">
+<summary>
+txtMeetingFreq control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._txtAssociation">
+<summary>
+txtAssociation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._txtMeetingTime">
+<summary>
+txtMeetingTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._txtMeetingPlace">
+<summary>
+txtMeetingPlace control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._ASPxDocumentViewer1">
+<summary>
+ASPxDocumentViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardofDirectors._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardReportGridWindow._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardReportGridWindow._ASPxDocumentViewer1">
+<summary>
+ASPxDocumentViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardReportSummaryWindow._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardReportSummaryWindow._ASPxDocumentViewer1">
+<summary>
+ASPxDocumentViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._ASPxRoundPanel2">
+<summary>
+ASPxRoundPanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._PanelContent1">
+<summary>
+PanelContent1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._lblDateRange">
+<summary>
+lblDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._lblOrderBy">
+<summary>
+lblOrderBy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._lblJobType">
+<summary>
+lblJobType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._cboDateRange">
+<summary>
+cboDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._txtReportType">
+<summary>
+txtReportType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._cboJobStatus">
+<summary>
+cboJobStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._cboOrderBy">
+<summary>
+cboOrderBy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._CallbackPanel1">
+<summary>
+CallbackPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._JobGrid">
+<summary>
+JobGrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._btnSummaryReport">
+<summary>
+btnSummaryReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._lblReport">
+<summary>
+lblReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._btnGridReport">
+<summary>
+btnGridReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._ASPxCallback1">
+<summary>
+ASPxCallback1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.BoardRequest._ASPxCallbackMessage">
+<summary>
+ASPxCallbackMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ShowDoc._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ShowDoc._ASPxRichEdit1">
+<summary>
+ASPxRichEdit1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ShowDoc._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ShowDoc._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ShowImage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ShowImage._ASPxBinaryImage1">
+<summary>
+ASPxBinaryImage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Calendar._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Calendar._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Calendar._ddlGroup">
+<summary>
+ddlGroup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Calendar._ddlFacility">
+<summary>
+ddlFacility control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Calendar._ASPxScheduler1">
+<summary>
+ASPxScheduler1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._txtNewUsername">
+<summary>
+txtNewUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._txtNewPassword">
+<summary>
+txtNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._txtReenterPassword">
+<summary>
+txtReenterPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._btnModify">
+<summary>
+btnModify control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ChangeUsernamePassword._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Committee._ASPxDocumentViewer1">
+<summary>
+ASPxDocumentViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Committee._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Committee._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lbl1">
+<summary>
+lbl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblContact">
+<summary>
+lblContact control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtAssociationName">
+<summary>
+txtAssociationName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtRole">
+<summary>
+txtRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._ASPxRoundPanel1">
+<summary>
+ASPxRoundPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._PanelContent2">
+<summary>
+PanelContent2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._CallbackPanelContact">
+<summary>
+CallbackPanelContact control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._PanelContent1">
+<summary>
+PanelContent1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblEditName">
+<summary>
+lblEditName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtEditName">
+<summary>
+txtEditName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblMailAddress">
+<summary>
+lblMailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtMailAddress">
+<summary>
+txtMailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblPhone1">
+<summary>
+lblPhone1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtPhone1">
+<summary>
+txtPhone1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._ddlPhone1Type">
+<summary>
+ddlPhone1Type control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblPhone2">
+<summary>
+lblPhone2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtPhone2">
+<summary>
+txtPhone2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._ddlPhone2Type">
+<summary>
+ddlPhone2Type control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblPhone3">
+<summary>
+lblPhone3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtPhone3">
+<summary>
+txtPhone3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._ddlPhone3Type">
+<summary>
+ddlPhone3Type control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._lblEmail">
+<summary>
+lblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._txtEMail">
+<summary>
+txtEMail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._DirectoryLabel">
+<summary>
+DirectoryLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._chkListedEmail">
+<summary>
+chkListedEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._chkListedHomePhone">
+<summary>
+chkListedHomePhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._chkListedCellPhone">
+<summary>
+chkListedCellPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._chkListedWorkPhone">
+<summary>
+chkListedWorkPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._chkNoEmailAtAll">
+<summary>
+chkNoEmailAtAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._chkListedMailAddress">
+<summary>
+chkListedMailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._chkUnlisted">
+<summary>
+chkUnlisted control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ContactInfo._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocLoad._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._btnOpenDoc">
+<summary>
+btnOpenDoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._ASPxLabel2">
+<summary>
+ASPxLabel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._txtSearch">
+<summary>
+txtSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._ASPxLabel1">
+<summary>
+ASPxLabel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._cboSearchOption">
+<summary>
+cboSearchOption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._CallbackPanel1">
+<summary>
+CallbackPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._grdDocSearch">
+<summary>
+grdDocSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsGrid._lblSearchCount">
+<summary>
+lblSearchCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsTree._btnOpenDoc">
+<summary>
+btnOpenDoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.DocsTree._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MemberDirectory._ASPxDocumentViewer1">
+<summary>
+ASPxDocumentViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MemberDirectory._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MemberDirectory._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.MemberDirectory._ASPxCallbackMessage">
+<summary>
+ASPxCallbackMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RequestStatus._ASPxDocumentViewer1">
+<summary>
+ASPxDocumentViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._txtAssociation">
+<summary>
+txtAssociation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label14">
+<summary>
+Label14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._UploadControl">
+<summary>
+UploadControl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._txtContact">
+<summary>
+txtContact control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._Label15">
+<summary>
+Label15 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._lblUploadFiles">
+<summary>
+lblUploadFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._ASPxSubject">
+<summary>
+ASPxSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._ASPxPriority">
+<summary>
+ASPxPriority control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._ASPxDescription">
+<summary>
+ASPxDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._memoUploadFiles">
+<summary>
+memoUploadFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._UploadStart">
+<summary>
+UploadStart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ServiceRequest._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._ASPxRoundPanel2">
+<summary>
+ASPxRoundPanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._PanelContent3">
+<summary>
+PanelContent3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._ASPxCallbackPanelListBox">
+<summary>
+ASPxCallbackPanelListBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._PanelContent4">
+<summary>
+PanelContent4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._lstVehicle">
+<summary>
+lstVehicle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._btnRemove">
+<summary>
+btnRemove control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._ASPxRoundPanel1">
+<summary>
+ASPxRoundPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._PanelContent2">
+<summary>
+PanelContent2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._CallbackPanelVehicle">
+<summary>
+CallbackPanelVehicle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._PanelContent1">
+<summary>
+PanelContent1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._lblLicense">
+<summary>
+lblLicense control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._txtLicense">
+<summary>
+txtLicense control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._lblMake">
+<summary>
+lblMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._txtMake">
+<summary>
+txtMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._lblModel">
+<summary>
+lblModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._txtModel">
+<summary>
+txtModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._lblColor">
+<summary>
+lblColor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._lblYear">
+<summary>
+lblYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._txtColor">
+<summary>
+txtColor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._lblSticker">
+<summary>
+lblSticker control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._txtYear">
+<summary>
+txtYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._txtSticker">
+<summary>
+txtSticker control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.Vehicle._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._lblEnterEmail_nomargin">
+<summary>
+lblEnterEmail_nomargin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._btnLoginInfo">
+<summary>
+btnLoginInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.ForgotUsernamePassword._lnkSignIn">
+<summary>
+lnkSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.LogOut._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.NoAccess._btnSignIn">
+<summary>
+btnSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._lbllastName">
+<summary>
+lbllastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._lblfirstName">
+<summary>
+lblfirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._cmdRegister">
+<summary>
+cmdRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._txtAccountNo">
+<summary>
+txtAccountNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._lnkSignIn">
+<summary>
+lnkSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAccount._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._lbllastName">
+<summary>
+lbllastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._lblfirstName">
+<summary>
+lblfirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._cmdRegister">
+<summary>
+cmdRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._txtMessage">
+<summary>
+txtMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._txtStreetNo">
+<summary>
+txtStreetNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._txtStreetName">
+<summary>
+txtStreetName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._txtUnitNo">
+<summary>
+txtUnitNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._lnkSignIn">
+<summary>
+lnkSignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._ASPxMemo1">
+<summary>
+ASPxMemo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationAddress._ASPxCallbackMessage">
+<summary>
+ASPxCallbackMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._lblEnterEmail">
+<summary>
+lblEnterEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._btnOK">
+<summary>
+btnOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._btnNewEmail">
+<summary>
+btnNewEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail._chkAccept">
+<summary>
+chkAccept control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._lblEnterEmail">
+<summary>
+lblEnterEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._btnOK">
+<summary>
+btnOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.RegistrationConfirmEmail1._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.TimeoutControl._TimoutPopup">
+<summary>
+TimoutPopup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.TimeoutControl._GlobalEvents">
+<summary>
+GlobalEvents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SeymourWebsite.TimeoutControl._KeepAliveHelper">
+<summary>
+KeepAliveHelper control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

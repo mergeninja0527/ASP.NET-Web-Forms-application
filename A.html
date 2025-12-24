@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Test Page</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/adler-32@1.3.0/adler32.min.js"></script>
+    </head>
+
+	<body>
+		<div id="front-page-feature-panel">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title">Your Profile</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<!-- ADMIN Controlled content -->
+						
+						<!-- Begin Web Form -->
+						<script type="text/javascript">$(function(){$('[data-rule-required]:not(.noindicator), .forceindicator').after('<span class="mnw-icon-required" role="img" aria-label="Required Field"></span>');})</script>
+						<script type="text/javascript">
+                            window.PublicScripts = {
+                                ManageUsers: {
+                                    UserForm: {
+                                        init: function () {
+                                            // Initialization code for the user form
+                                            console.log("UserForm initialized");
+                                        }
+                                    }
+                                }
+                            }
+
+							$(function () {
+								PublicScripts.ManageUsers.UserForm.init();
+							})
+						</script>
+
+						<div class="ra mnw-mb-10">
+							<a href="?view=">Your Profile</a>
+						</div>
+
+						<h3>Update Your Profile</h3>
+						<div class="mnw-mt-10 mnw-mb-10">
+							<div>Help us keep our records up-to-date. Use the form below to update your profile details.</div>
+						</div>
+								
+						<form action="/update/?view=profile" enctype="multipart/form-data" method="post" class="mnw-form-field-styles" data-mnw-disable="" novalidate="novalidate">
+							<div class="validation-summary-valid" data-valmsg-summary="true"><div class="mnw-validation-error-box">The form contains errors.  Please correct them and re-submit.</div><ul><li style="display:none"></li></ul></div><style type="text/css">.validation-summary-errors > ul{display:none;}</style>
+							<table class="mnw-form-table-md">
+								<tbody>
+									<tr>
+										<td class="va-t w-35p">
+											<label for="field[263765]">Membership ID Number</label>
+										</td>
+
+										<td class="va-t">
+											<input type="text" data-rule-required="true" data-msg-required="Required" maxlength="8" size="10" class="mnw-input-xsmall" name="field[263765][data][0]" id="field[263765][data][0]" value="A340"><span class="mnw-icon-required" role="img" aria-label="Required Field"></span>
+											<span class="field-validation-valid" data-valmsg-for="field[263765][data][0]" data-valmsg-replace="true"></span>									
+										</td>
+									</tr>
+																																																							<tr>
+										<td class="va-t w-35p">
+											<label for="field[255356]">Address</label>
+										</td>
+
+										<td class="va-t">
+											<input type="text" data-rule-required="true" data-msg-required="Required" maxlength="40" size="40" placeholder="Street Address" name="field[255356][data][address]" id="field[255356][data][address]" value="17388 Via Del Campo 92127">
+											<span class="mnw-icon-required" role="img" aria-label="Required Field"></span>
+											<span class="field-validation-valid" data-valmsg-for="field[255356][data][address]" data-valmsg-replace="true"></span>
+											
+											<div class="cf-address">
+												<div>
+													<input type="text" maxlength="40" size="40" placeholder="Suite/Apt." name="field[255356][data][address2]" id="field[255356][data][address2]" value="">
+												</div>									
+											</div>
+										</td>
+									</tr>
+																																																							<tr>
+										<td class="va-t w-35p">
+											<label for="field[255345]">First Name</label>
+										</td>
+
+										<td class="va-t">
+											<input type="hidden" name="data[mtid]" id="data[mtid]" value="23149">
+											<input type="text" data-rule-required="true" data-msg-required="Required" data-rule-custom="SharedScripts.Validators.cf_validate_namefields" data-msg-custom="One of these fields is required." maxlength="100" size="40" data-namefield="1" data-longname="First Name" class="" name="field[255345][data][0]" id="field[255345][data][0]" value="Wilson"><span class="mnw-icon-required" role="img" aria-label="Required Field"></span>
+											<span class="field-validation-valid" data-valmsg-for="field[255345][data][0]" data-valmsg-replace="true"></span>									
+										</td>
+									</tr>
+																																																							<tr>
+										<td class="va-t w-35p">
+											<label for="field[255351]">Last Name</label>
+										</td>
+
+										<td class="va-t">
+											<input type="hidden" name="data[mtid]" id="data[mtid]-1" value="23149">
+											<input type="text" data-rule-required="true" data-msg-required="Required" data-rule-custom="SharedScripts.Validators.cf_validate_namefields" data-msg-custom="One of these fields is required." maxlength="100" size="40" data-namefield="1" data-longname="Last Name" class="" name="field[255351][data][0]" id="field[255351][data][0]" value="Sutjiadi"><span class="mnw-icon-required" role="img" aria-label="Required Field"></span>
+											
+											<span class="field-validation-valid" data-valmsg-for="field[255351][data][0]" data-valmsg-replace="true"></span>									
+										</td>
+									</tr>
+																																																							<tr>
+										<td class="va-t w-35p">
+											<label for="field[255344]">Email Address</label>
+										</td>	
+										
+										<td class="va-t">
+											<input type="text" data-rule-remote="/admin2/manageusers/ajax/ajax-validators.php?func=cfemail" data-type-remote="POST" data-additionalfields-remote="uid" data-rule-required="true" data-msg-required="Required" data-rule-email="true" data-msg-email="Invalid email" maxlength="80" size="40" placeholder="youremail@yourdomain.com" name="field[255344][data][0]" id="field[255344][data][0]" value="wilson@sutjiadi.biz">
+											
+											<span class="mnw-icon-required" role="img" aria-label="Required Field"></span>
+											<span class="field-validation-valid" data-valmsg-for="field[255344][data][0]" data-valmsg-replace="true"></span>									
+										</td>
+									</tr>
+								</tbody>
+							</table>
+								
+							<div class="ca mnw-mb-20 mnw-mt-20">
+								<button type="submit">Save</button>
+							</div>
+							<br>
+
+							<div class="ca mnw-mb-20 mnw-mt-20">
+								<button type="button" id="connectSiteBButton">
+										Connect
+								</button>
+							</div>
+
+							<input type="hidden" name="uid" id="uid" value="4765ebc2f9750b4e536245661">
+							<input type="hidden" name="lvl" id="lvl" value="">
+							<input type="hidden" name="mt" id="mt" value="7736480452919166930">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/adler-32@1.3.0/adler32.min.js"></script>
+		<script>
+			const firstNameID = "field[255345][data][0]"
+			const lastNameID = "field[255351][data][0]"
+			const fullAddressID = "field[255356][data][address]"
+
+			function parseAddress(addr) {
+				const cleanAddr = addr.replace(/[^\w\s\-\.,#]/g, ''); 
+				const zipMatch = cleanAddr.match(/(\d{5})$/);
+
+				if (!zipMatch) {
+				  throw new Error("Invalid ZIP code format");
+				}
+
+				const zipcode = zipMatch[1];
+
+				const rest = cleanAddr.replace(zipcode, '').trim();
+				const [streetno, ...streetParts] = rest.split(' ');
+				
+				return {
+				  streetno: streetno || '',
+				  streetaddress: streetParts.join(' ').trim() || '',
+				  zipcode
+				};
+			};
+
+			window.onload = async function () {
+				const connectButton = document.getElementById("connectSiteBButton");
+				connectButton.addEventListener("click", async function() {
+					const finalEncoded = await createFinalEncodedUrl();
+					const FinalEncodedUrl = `http://104.40.1.79/SSO.aspx?payload=${finalEncoded}`;
+					window.location.href = FinalEncodedUrl; // Redirect to Another Site
+				});
+			};
+
+			async function createFinalEncodedUrl(){
+				const firstName = document.getElementById(firstNameID)?.value.trim() || '';
+				const lastName = document.getElementById(lastNameID)?.value.trim() || '';
+				const fullAddress = document.getElementById(fullAddressID)?.value.trim() || '';
+
+				const { streetno, streetaddress, zipcode } = parseAddress(fullAddress);
+				const parsed = parseAddress(fullAddress);
+
+				let ip = "";
+				try {
+				  const res = await fetch("https://api.ipify.org?format=json");
+				  if (!res.ok) {
+					window.alert("Please disable VPN/IP Blocker")
+					throw new Error(`Status ${res.status}`);
+				  }
+				  const data = await res.json();
+				  ip = data.ip || "";
+				} catch (err) {
+				  throw new Error(`️ Could not fetch IP (will use empty string):, ${err}`);
+				  ip = "";
+				}
+				console.log(`IP address : ${ip}`)
+				const client = 'RanchoBernardo';
+
+				const Raw = [
+				  `client=${client}`,
+				  `firstname=${firstName}`,
+				  `lastname=${lastName}`,
+				  `streetno=${streetno}`,
+				  `streetaddress=${streetaddress}`,
+				  `zipcode=${zipcode}`
+				].join('|');
+
+
+				const lambdaHashInput = `${Raw}|ip=${ip}`;
+				const adlerKey = ADLER32.str(lambdaHashInput);
+				const rawWithKey = `${Raw}|Key=${adlerKey}`;
+
+				const finalEncoded = btoa(rawWithKey);
+				return finalEncoded
+			}
+
+		</script>
+	</body>
+</html>

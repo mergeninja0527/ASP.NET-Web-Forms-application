@@ -1,0 +1,126 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master.master.vb" Inherits="SeymourWebsite.Master" %>
+<%@ Register Assembly="DevExpress.Web.v19.1, Version=19.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register src="TimeoutControl.ascx" tagName ="TimeoutControl" tagPrefix="uc1"%>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <title>Seymour | Members Only</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="~/css/menu_dx.css" type="text/css" rel="stylesheet" />
+    <link href="~/css/styles.css" type="text/css" rel="stylesheet" /> 
+    <link href="~/Content/Site.css" rel="stylesheet" /> 
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   
+    <style type="text/css">
+               #wrapper {position:relative; margin-left:auto; margin-right:auto; width: 960px; background-color:white} 
+        #signin {position:relative; float: left; height: 30px; width: 960px; top:0px;background-color:white;}
+        #header {position:relative;  float: left; height:130px;top:0px; width:960px; top:0px;border:0px solid #A9A9A9}
+         #ticker {position:relative; float: left;height: 20px; width: 960px;top:0px; z-index:9999;background-color:white; border-bottom:0px solid #2F2F2F; background-image:url()}
+        #menu {position:relative; float: left;height: 50px; width: 960px; top:0px; background-color:transparent} 
+        #main {position:relative;  float: left;width: 960px; top: 0px; background-color:white }
+        #footertop {position:relative;  float: left;height:100px; width: 960px;top:0px; background-color:#5E88C0; }      
+        #footerMap {position:relative;  float: left; height:25px; width: 960px; top:0px; background-color:#5292bf; border-top:0px solid #5E88C0} 
+        
+</style>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+  <body style="background-image: url('<%= BodyImagePath%>'); background-size: cover; background-color: white; background-position-x:center;">
+   
+    <form id="form1" runat="server">
+         <uc1:TimeoutControl ID="TimeoutControl1" runat="server" />
+   <div id="wrapper" style="z-index: 101">
+            <div id="signin">
+                <dx:ASPxButton ID="lnkSignInOut" runat="server" EnableTheming="false" Visible="true" Text="Sign-In"
+                style="position:absolute; text-align:right; top:3px; left:826px; color:#111111; font-family:Arial; font-size:10pt; font-weight:bold; text-decoration: none; z-index: 100;" 
+                Width="128px" HorizontalAlign="Center" RenderMode="Link"></dx:ASPxButton>
+                <dx:ASPxTextBox ID="txtLoginName" runat="server" BackColor="Transparent" 
+                    EnableTheming="false" ForeColor="#111111"
+                    style="z-index: 101; left: 2px; position: absolute; top: 2px;  font-family:Arial; font-size:12px; font-style:normal; font-weight:bold; right: 0px; border:none" 
+                    Width="600px" Cursor="pointer"></dx:ASPxTextBox>
+            </div>  <!--signin-->
+            <div id="header">
+            <img alt="" height="130" src="~/Images/Header3.png" runat="server" 
+                    id="imgheader" width="960" 
+                    style="position: absolute; z-index: 3; top: 0px; left: 0px;" />
+         </div>  <!--header-->
+         <div id="ticker" style="display: inline"></div>
+           <div id="menu">
+                <dx:ASPxMenu ID="ASPxMenu1" runat="server" DataSourceID="menuXMLDataSource" style="Z-INDEX: 1000;position:absolute; top:0px; left: 0px;" 
+                     EnableTheming="False" Width="960px" Height="50px" 
+                     SelectParentItem="True"   Font-Names="Arial" Font-Size="10pt" Font-Bold="true" ItemSpacing="0px" BackColor="transparent">
+                        <SettingsLoadingPanel Enabled="False" ShowImage="False"></SettingsLoadingPanel>
+
+                    <ItemStyle CssClass="mainmenu" ForeColor="#030303" VerticalAlign="Middle" Height="50px" BackColor="transparent"
+                         HorizontalAlign="Center" Font-Underline="False" Border-BorderColor="transparent" Border-BorderWidth="0px" Border-BorderStyle="Solid" Font-Names="Arial" Font-Size="10pt" Font-Bold="true">
+                        <SelectedStyle CssClass="mainmenuselected" ForeColor="#d22f25"  BackColor="transparent"  Font-Names="Arial" Font-Size="10pt" Font-Underline="false" Font-Bold="true"></SelectedStyle>
+                        <HoverStyle CssClass="mainmenuhover" ForeColor="#d22f25"  BackColor="transparent"  Font-Names="Arial" Font-Size="10pt" Font-Underline="true" Font-Bold="true"></HoverStyle>
+                     </ItemStyle>
+                    <SubMenuItemStyle CssClass="submenu" ForeColor="#030303" BackColor="white" VerticalAlign="Middle" Font-Names="Arial" Font-Size="9pt" Font-Bold="false"
+                         Width="200px" Font-Underline="False" >
+                        <SelectedStyle CssClass="submenuselected"  ForeColor="#d22f25" Font-Underline="false" Font-Names="Arial" BackColor="white" Border-BorderStyle="None"></SelectedStyle>
+                        <HoverStyle CssClass="submenuhover"  ForeColor="#d22f25" Font-Underline="false" Font-Names="Arial" BackColor="white" Border-BorderStyle="None"></HoverStyle>
+
+                    </SubMenuItemStyle>
+                 
+                     <SubMenuStyle GutterWidth="0px" ItemSpacing="0px">
+                     <Paddings Padding="0px"  />
+           
+                     </SubMenuStyle>
+                 
+                     <Border BorderStyle="None" />  
+                    </dx:ASPxMenu>
+                  <asp:XmlDataSource ID="menuXmlDataSource" runat="server" DataFile="~/App_Data/menu.xml" XPath="root/MenuItem"></asp:XmlDataSource>
+                  </div>  <!--menu-->
+      
+        
+<div id="main">
+        
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div> 
+      
+        <div id="footerMap">
+     <span style="position:absolute; margin-top:5px;  background-color:#5292bf; font-family:Arial; color: white; font-size:9pt; font-style:normal; border-top:0px; width:960px; text-align:center">Copyright © 2025 Rancho Bernardo Swim and Tennis - All Rights Reserved.</span>      
+  </div>
+            </div> <!--wrapper-->
+    
+
+
+             <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+   <script type="text/javascript" lang="javascript">
+
+       var content = "<%=Tickertext %>";
+
+       var tWidth = '960px';                  // width (in pixels)
+       var tHeight = '15px';                  // height (in pixels)
+       var tcolour = 'transparent';               // background colour:
+       var moStop = true;                     // pause on mouseover (true or false)
+       var fontfamily = 'verdana,arial,sans-serif'; // font for content
+       var tSpeed = 2;                        // scroll speed (1 = slow, 5 = fast)
+       var cps = tSpeed;
+       var aw, mq;
+       var fsz = parseInt(tHeight) - 4;
+       function startticker() {
+           if (document.getElementById) { var tick = '<div style="color:#111111;position:relative;width:' + tWidth + ';height:' + tHeight + ';overflow:hidden;background-color:' + tcolour + '"'; if (moStop) tick += ' onmouseover="cps=0" onmouseout="cps=tSpeed"'; tick += '><div id="mq" style="position:absolute;left:0px;top:3px;font-family:' + fontfamily + ';font-size:' + fsz + 'px;white-space:nowrap;"><\/div><\/div>'; document.getElementById('ticker').innerHTML = tick; mq = document.getElementById("mq"); mq.style.left = (parseInt(tWidth) + 10) + "px"; mq.innerHTML = '<span id="tx">' + content + '<\/span>'; aw = document.getElementById("tx").offsetWidth; lefttime = setInterval("scrollticker()", 50); }
+       }
+       function scrollticker() { mq.style.left = (parseInt(mq.style.left) > (-10 - aw)) ? parseInt(mq.style.left) - cps + "px" : parseInt(tWidth) + 10 + "px"; }
+
+       if (content.length > 0) {
+           window.onload = startticker;
+       } else {
+           document.getElementById('ticker').style.display = 'none';
+       }
+
+        </script>
+</asp:PlaceHolder>
+    </form>
+</body>
+</html>

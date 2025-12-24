@@ -1,0 +1,131 @@
+﻿.picker_base
+{
+  background-color: #FFFFFF;
+  color:Black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Verdana;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.picker_picker
+{
+  background-color: #FFFFFF;
+  border: 1px gray solid;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Verdana;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.picker_calendar_button
+{
+	border:none;
+	cursor:pointer;
+	width:25px;
+	height:22px;
+	color:Black;
+}
+
+.calendar td
+{
+  font-size:11px;
+  color:black;
+}
+
+.picker_title
+{
+	font-weight:bold;
+  background-color:#D7D7E5;
+}
+
+.picker_day
+{
+  width:25px;
+  cursor:pointer;
+  text-align:center;
+  border-width:1px;
+  border-color:#F6F6F6;
+  border-style:solid;
+}
+
+.picker_dayhover
+{
+	width:25px;
+  cursor:pointer;
+  text-align:center;
+  text-decoration:underline;
+  border-width:1px;
+  border-color:#F6F6F6;
+  border-style:solid;
+}
+
+.picker_dayheader
+{
+	width:25px;
+  text-align:center;
+  border-width:1px;
+  border-color:white;
+  border-style:solid;
+  font-weight:bold;
+  background-color:#FFFFFF;
+}
+
+.picker_othermonthday
+{
+  color:#999999;
+}
+
+.picker_outofrangeday
+{
+  visibility:hidden;
+}
+
+.picker_selectedday
+{
+	width:25px;
+  background-color:#FBE694;
+  color:#000000;
+  border-width:1px;
+  border-color:#BB5503 !important;
+  border-style:solid;
+  font-weight:bold;
+}
+
+.picker_calendar
+{
+  border-style:solid;
+  border-width:1px;
+  border-color:Black;
+  border-collapse:collapse;
+  background-color:#FFFFFF;
+  cursor:default;
+}
+
+.picker_month
+{
+  background-color:#F6F6F6;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:5px;
+  margin-top:0px;
+}
+
+.picker_nextprev
+{
+  cursor:pointer;
+  height:25px;
+  vertical-align:middle;
+  padding:0px 5px 0px 5px;
+}
+
+.picker_selector
+{
+  width:14px;
+  cursor:pointer;
+  text-align:left;
+  vertical-align:middle;
+  background-color:#FFFFFF;
+}

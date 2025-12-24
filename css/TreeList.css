@@ -1,0 +1,241 @@
+﻿.dxtlControl
+{
+	cursor: default;
+	font: 9pt Tahoma;
+	color: black;
+	border: none 1px #9f9f9f;
+}
+
+/* Indent cells */
+.dxtlIndent, .dxtlIndentWithButton
+{			
+	background: white;
+	vertical-align: top;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.dxtlIndent
+{
+	padding: 0 11px;
+}
+.dxtlIndentWithButton
+{
+	padding: 5px 7px 6px;
+}
+.dxtlSelectionCell
+{
+	vertical-align: top;
+	padding: 0 2px;
+	border: solid 1px #cfcfcf;
+}
+
+/* Tree-lines cells */
+.dxtlLineFirst
+{
+	background-image: url('<%=WebResource("DevExpress.Web.ASPxTreeList.Images.Css.TreeLineFirst.gif")%>');	
+}
+.dxtlLineMiddle
+{
+	background-image: url('<%=WebResource("DevExpress.Web.ASPxTreeList.Images.Css.TreeLineMiddle.gif")%>');
+	
+}
+.dxtlLineLast
+{
+	background-image: url('<%=WebResource("DevExpress.Web.ASPxTreeList.Images.Css.TreeLineLast.gif")%>');
+	
+}
+.dxtlLineRoot
+{
+	background-image: url('<%=WebResource("DevExpress.Web.ASPxTreeList.Images.Css.TreeLineRoot.gif")%>');
+	background-repeat: repeat-y;	
+}
+
+/* Headers */
+.dxtlHeader 
+{
+	background: #dcdcdc;	
+	border: solid 1px #9f9f9f;
+	padding: 4px 6px 5px;
+	font-weight: normal;		
+}
+.dxtlHeader table.dxtl 
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader, .dxtlHeader td.dxtl 
+{	
+	font: 9pt Tahoma;
+	white-space: nowrap;
+	text-align: left;
+}
+
+/* Nodes */
+.dxtlNode
+{
+	background: white;
+}
+.dxtlAltNode
+{
+	background: #ededeb;	
+}
+.dxtlSelectedNode
+{
+	background: #a0a0a0;
+	color: white;
+}
+.dxtlFocusedNode
+{
+	background: #8d8d8d;
+    color: white;
+}
+.dxtlInlineEditNode
+{
+	background: white;
+}
+.dxtlEditFormDisplayNode 
+{
+	background: white;
+}
+
+.dxtlNode td.dxtl, 
+.dxtlAltNode  td.dxtl, 
+.dxtlSelectedNode td.dxtl, 
+.dxtlFocusedNode td.dxtl,
+.dxtlEditFormDisplayNode td.dxtl,
+.dxtlCommandCell
+{
+	padding: 3px 6px 4px;
+	border: solid 1px #cfcfcf;
+	white-space: nowrap;
+	font: 9pt Tahoma;
+}
+.dxtlInlineEditNode td.dxtl
+{
+	border: solid 1px #cfcfcf;
+	padding: 1px;
+}
+
+/* Preview */
+.dxtlPreview
+{
+	background: #f2f2f2;
+	color: #7f7f7f;
+	padding: 14px;
+	border: solid 1px #cfcfcf;
+	font: 9pt Tahoma;	
+}
+
+/* Footers */
+.dxtlGroupFooter
+{
+	background-color: #E0E0E0;	
+}
+.dxtlFooter
+{
+	background-color: #D7D7D7;	
+}
+.dxtlGroupFooter td.dxtl,
+.dxtlFooter td.dxtl
+{
+	padding: 5px 6px 6px;
+	white-space: nowrap;
+	text-align: left;
+	border: solid 1px #cfcfcf;
+	font: 9pt Tahoma;
+}
+
+/* Pagers */
+.dxtlPagerTopPanel 
+{
+	border-bottom: none 1px #9f9f9f;
+	padding-bottom: 2px;
+}
+.dxtlPagerBottomPanel 
+{	
+	border-top: none 1px #9f9f9f;
+	padding-bottom: 2px;
+}
+
+/* Editing */
+.dxtlEditForm 
+{
+	background: #F0F0F0;
+	border: solid 1px #D3D3D3;
+	padding: 8px 10px 10px;
+}
+.dxtlEditFormCaption,
+.dxtlEditFormEditCell
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError
+{
+	background: #FFC8C8;
+	color: #FF0000;
+	padding: 6px 10px;
+	border: solid 1px #cfcfcf;
+	font: 9pt Tahoma;		
+}
+
+/* Links */
+.dxtlControl a 
+{
+	color: #0d45b7;
+}
+.dxtlControl a:hover 
+{
+	color:  #5494ea;
+}
+.dxtlSelectedNode a, 
+.dxtlFocusedNode a 
+{
+	color: White;
+}
+.dxtlSelectedNode a:hover, 
+.dxtlFocusedNode a:hover
+{
+	color: #f0f0f0;
+} 
+.dxtlCommandCell a 
+{
+	margin-right: 3px;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel
+{
+	border: solid 1px #9F9F9F;
+	background-color: #E3E3E1;
+	font: 9pt Tahoma;
+	color: #303030;
+}
+.dxtlLoadingPanel td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxtlLoadingDiv
+{
+	background: white;
+	opacity: 0.01;
+	filter: alpha(opacity=1);
+}
+
+/* Disabled */
+.dxtlDisabled,
+.dxtlDisabled .dxtl
+{
+	color: #808080;
+	cursor: default;
+}

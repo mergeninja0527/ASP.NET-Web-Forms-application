@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <MenuItem Name="mnuHome" Text="Home" Enabled="True" Tooltip="" NavigateUrl="~/DefaultSignIn.aspx" ></MenuItem>
+  <MenuItem Name="mnuOurServices" Text="Our Services" Enabled="True" Tooltip="" NavigateUrl="~/Public/OurServices.aspx" ></MenuItem>
+    <MenuItem Name="mnuAbout" Text="About Us" Enabled="True" Tooltip="" NavigateUrl="~/Public/AboutUs.aspx" ></MenuItem>
+  <MenuItem Name="mnuSpace" Text="                                                                                                            " Enabled="True" Tooltip="" ></MenuItem>
+  <MenuItem Name="mnuForgot" Text="Forgot Login" Enabled="True" Tooltip="" NavigateUrl="~/Public/ForgotUsernamePassword.aspx" ></MenuItem>
+  <MenuItem Name="mnuRegister" Text="Register" Enabled="True" Tooltip="" NavigateUrl="~/Public/RegistrationAccount.aspx" ></MenuItem>
+ 
+</root>
